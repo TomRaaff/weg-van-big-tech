@@ -2,13 +2,18 @@
   "name": "weg-van-big-tech",
   "version": "1.0.0",
   "description": "website that provides a guide to move away from big-tech",
-  "main": "app.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
     "url": "weg-van-big-tech"
+  },
+  "devDependencies": {
+    "vite": "^6.1.0"
   },
   "keywords": [
     "privacy",
