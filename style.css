@@ -1,0 +1,70 @@
+/* reset based on: https://blog.logrocket.com/what-should-modern-css-boilerplate-look-like/ */
+:root {
+    --bg-white: #efefef;
+}
+
+/* disable text inflation algorithm */
+html {
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+        scroll-behavior: smooth;
+  }
+}
+
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+    border: none;
+}
+
+/* remove unwanted list styles */
+menu:not(article menu),
+ul:not(article ul),
+ol:not(article ol) {
+    list-style: none;
+    padding: 0;
+}
+
+/* add role="list" to these elements to have screen readers announce them */
+article ul,
+article ol {
+    list-style-position: inside;
+}
+
+/* get rid of some funky img trouble */
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    /* Places underlines below the descenders */
+    text-underline-position: under;
+    /* Sets the thickness as a percentage of the font size */
+    text-decoration-thickness: 8;
+}
+
+p {
+    /* neatly wraps text without orphans */
+    text-wrap: pretty;
+}
+
+/* less aggressive focus approach */
+:focus:not(:focus-visible) {
+    outline: none;
+}
+
+label,
+button,
+select,
+summary,
+[type=radio],
+[type=submit],
+[type=checkbox] {
+    cursor: pointer;
+}
