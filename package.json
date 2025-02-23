@@ -1,0 +1,19 @@
+{
+  "name": "weg-van-big-tech",
+  "version": "1.0.0",
+  "description": "website that provides a guide to move away from big-tech",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "weg-van-big-tech"
+  },
+  "keywords": [
+    "privacy",
+    "degoogle"
+  ],
+  "author": "Tom Raaff",
+  "license": "GPL-3.0-or-later"
+}
