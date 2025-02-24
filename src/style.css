@@ -1,7 +1,12 @@
 @import "open-props/style";
 
+:root {
+    --font-serif: 'Source Serif Pro', serif;
+    --font-sans: 'Neue Haas Grotesk Display Pro', sans-serif;
+}
+
 html {
-    font-family: 'Source Serif Pro', serif;
+    font-family: var(--font-serif);
 }
 
 body {
@@ -22,4 +27,22 @@ ul.regular {
     list-style: inside;
     list-style-type: disc;
     padding-inline-start: var(--size-2);
+}
+
+button,
+.btn {
+    padding: var(--size-2) var(--size-3);
+    background: var(--sand-4);
+    color: var(--sand-10);
+    font-family: var(--font-sans);
+    text-decoration: none;
+    border-radius: var(--radius-2);
+}
+
+button:hover,
+.btn:hover {
+    color: var(--cyan-9);
+    outline-width: 4px;
+    outline-color: var(--cyan-9);
+    outline-style: solid;
 }
