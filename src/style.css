@@ -23,12 +23,6 @@ main {
     margin: auto;
 }
 
-ul.regular {
-    list-style: inside;
-    list-style-type: disc;
-    padding-inline-start: var(--size-2);
-}
-
 button,
 .btn {
     padding: var(--size-2) var(--size-3);
@@ -45,4 +39,11 @@ button:hover,
     outline-width: 4px;
     outline-color: var(--cyan-9);
     outline-style: solid;
+}
+
+code {
+    padding: var(--size-1);
+    outline: 1px solid white;
+    outline-style: dashed;
+    border-radius: var(--size-1);
 }
