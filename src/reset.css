@@ -30,6 +30,14 @@ ol:not(article ol) {
     padding: 0;
 }
 
+@media(max-width: 600px) {
+
+    ul,
+    ol {
+        padding: 0;
+    }
+}
+
 /* add role="list" to these elements to have screen readers announce them */
 article ul,
 article ol {
