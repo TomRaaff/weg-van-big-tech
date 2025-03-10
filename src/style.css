@@ -82,3 +82,7 @@ code {
 details {
     margin: var(--size-3) 0;
 }
+
+.todo {
+    outline: 1px solid red;
+}
