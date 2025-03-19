@@ -82,6 +82,10 @@ details {
   margin: var(--size-3) 0;
 }
 
+img {
+  margin-block: var(--size-2);
+}
+
 .todo {
   outline: 1px solid red;
 }
