@@ -89,3 +89,19 @@ img {
 .todo {
   outline: 1px solid red;
 }
+
+.protection-card {
+  background: var(--sand-3);
+  color: var(--cyan-12);
+  padding: var(--size-4);
+  border-radius: var(--radius-2);
+  margin-block-end: var(--size-2);
+  border-inline-start: solid var(--size-2) var(--cyan-9);
+  border-color: var(--cyan-9);
+
+  ul {
+    margin-block: 0;
+    list-style-type: "> ";
+    padding-inline-start: var(--size-3);
+  }
+}
