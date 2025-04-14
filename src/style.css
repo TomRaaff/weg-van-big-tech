@@ -105,3 +105,24 @@ img {
     padding-inline-start: var(--size-3);
   }
 }
+
+.email-form {
+  max-width: 500px;
+  width: 90vw;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-4);
+
+  label {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    input,
+    textarea {
+      width: 75%;
+    }
+  }
+}
